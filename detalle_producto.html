@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles del Producto - Agropecuaria Zoe</title>
+    <link rel="icon" href="./imagenes/favicon.ico" type="image/x-icon">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="./detalle_estilos.css">
+    <link rel="stylesheet" href="./estilos.css">
+</head>
+<style>
+button.btn{
+    position:inherit; /* Lo fija en la pantalla */
+    bottom: 20px; /* Distancia desde el fondo de la página */
+    margin-bottom: 2%;
+    margin-left: 120%;
+    right: 20%; /* Distancia desde el lado derecho */
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #28a345; /* Color del botón */
+    color: white; /* Color del texto */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para el botón */
+  }
+
+  /* Cambio de color cuando el botón se pasa por encima */
+  .boton:hover {
+    background-color: #28a345;
+  }
+  </style>
+<body style="image-resolution: 1000%; ;">
+
+    <header class="bg-success text-white text-center py-4">
+        <div class="container">
+            <div class="row align-items-center">
+              <div class="col-auto logo-container">
+                <img src="logo.jpeg" alt="Logo Agropecuaria Zoe" width="100" height="100" class="img-fluid rounded-circle shadow-sm " style="padding-bottom: 15px;">
+              </div>
+              <div class="col text-center">
+                <h1 class="display-4">Catalogo de productos</h1>
+              </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Zoe</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    
+    </header>
+    
+    <div class="container mt-5">
+        <div id="detalle" class="text-center">
+            <!-- Los detalles del producto se cargarán aquí mediante JS -->
+        </div>
+        <div class="text-center">
+            <button id="volver" class="btn btn-primary mt-3" style="color: whitesmoke;background: #28a345;border-color:#28a345 ;">Volver</button>
+        </div>
+    </div>
+    
+    <footer class="text-center">
+        <p>Contáctanos: agrozoe3@gmail.com | Tel: 910474164</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/share/Y18u3qWEWW288xBy/" target="_blank" title="Facebook"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.instagram.com/agro_zoe/?utm_source=qr&r=nametag" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.tiktok.com/@agropecuaria.zoe?_t=8qQl34lNDBm&_r=1" target="_blank" title="TikTok"><i class="fab fa-tiktok"></i></a>
+            <a href="https://www.youtube.com/@AGROZOE" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a>
+            <a href="https://agropecuaria-zoe-8j2a.glide.page/dl/da19fa" target="_blank" title="Glide"><i class="fab fa-glide"></i></a>
+        </div>
+    </footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.6/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="./script.js"></script>
+
+</body>
+</html>
+

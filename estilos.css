@@ -1,0 +1,30 @@
+body {
+    background-color: with;
+  }
+footer {
+    background: #28a345;
+    color: white;
+    padding: 10px 0;
+}
+.card {
+    transition: transform 0.1s;
+    margin-bottom: 30px;
+}
+.card:hover {
+    transform: scale(00.1s);
+}
+.product-title {
+    color: #007B33;
+}
+.product-description {
+    color: #555;
+}
+.social-icons a {
+    color: white;
+    margin: 0 15px;
+    font-size: 2rem; /* Aumentar tamaño de iconos */
+    transition: transform 0.2s; /* Efecto de transición */
+}
+.social-icons a:hover {
+    transform: scale(1.2); /* Efecto de hover */
+}

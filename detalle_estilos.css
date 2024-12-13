@@ -1,0 +1,28 @@
+.product-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-info img {
+    max-width: 100%; /* Ajusta el tamaño máximo de la imagen */
+    height: auto;
+}
+
+.product-text {
+    max-width: 45%;
+    padding-left: 20px; /* Espaciado entre la imagen y el texto */
+}
+
+.product-text h1 {
+    font-size: 2.5em;
+    color: green;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.product-text p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    text-align: justify;
+}
